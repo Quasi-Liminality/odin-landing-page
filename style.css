@@ -1,0 +1,125 @@
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    .content {
+        display: flex;
+        align-items: center;
+        width: 70vw;
+        margin: auto;
+    }
+}
+
+.header > .content {
+    padding-top: 1rem;
+    .logo {
+        font-size: 24px;
+        font-weight: 900;
+        color: #F9FAF8;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 1.5rem;
+        padding: 0;
+        margin: 0 0 0 auto ;
+    }
+    a {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+}
+
+.container > .content {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+
+.container.first {
+    background-color: #1F2937;
+    .content {
+        min-height: 520px;
+        gap: 5rem;
+    }
+    .hero {
+        flex: 1;
+        span {
+            color: #F9FAF8;
+            font-size: 48px;
+            font-weight: 900;
+        }
+        p {
+            color: #E5E7EB;
+            font-size: 18px;
+            margin-bottom: 1rem;
+        }
+        button {
+            padding: 8px 36px;
+            border-radius: 10px;
+            color: white;
+            background-color: #3882F6;
+            font-size: 20px;
+            font-weight: 900;
+        }
+    }
+    .placeholder {
+        display: flex;
+        flex: 1;
+        max-width: 50%;
+        min-height: 250px;
+        padding: 0 3rem;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(87, 85, 85);
+        color: white;
+    }
+}
+
+.container.second {
+    width: 100%;
+    background-color: white;
+    .content{
+        min-height: 500px;
+        flex-direction: column;
+        gap: 4rem;
+        h2 {
+            font-size: 36px;
+            font-weight: 900;
+            color: #1F2937
+        }
+    }
+    ul {
+        display: flex;
+        gap: 4rem;
+        text-align: center;
+        padding-bottom: 4rem;;
+        li {
+            width: 165px;
+            .image {
+                height: 165px;
+                width: 165px;
+                border: 5px #3882F6 solid;
+                border-radius: 10%;
+                margin-bottom: 6px;;
+            }
+        }
+    }
+}
+
+
+.third {
+    background-color: #E5E7EB;
+    min-height: 50vh;
+}
